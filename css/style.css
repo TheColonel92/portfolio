@@ -1,0 +1,199 @@
+/* RESET CSS */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #004080;
+}
+
+header.site-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+header .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header .nav-links li {
+    margin: 0 15px;
+}
+
+header .nav-links a {
+    color: white;
+    font-weight: bold;
+}
+
+/* HERO SECTION - Avec une image de fond */
+.hero {
+    height: 100vh; /* Occupe la hauteur complète de la fenêtre */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url('../img/paris-banner.png') no-repeat center center/cover;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-content {
+    z-index: 1; /* Pour garantir que le contenu reste visible */
+    background: rgba(0, 0, 0, 0.5); /* Ajoute une transparence pour rendre le texte lisible */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #004080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+    background: #003060;
+}
+
+/* SECTIONS */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.image-gallery, .experience-list, .project-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-gallery img, .experience-item img, .project-item img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* SECTION DIPLÔMES */
+#diplomes {
+    background: #f9f9f9;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#diplomes h2 {
+    font-size: 2.5rem;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+#diplomes p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.diplomes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.diplome {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.diplome:hover {
+    transform: translateY(-10px);
+}
+
+.diplome h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.diplome p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.diplome img {
+    width: 100%;
+}
+
+
+/* FORM STYLES */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #003060;
+}
+
+/* FOOTER */
+.site-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
