@@ -8,105 +8,80 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Sélecteur de langue -->
+    <div id="lang-switcher">
+        <button data-lang="fr">Français</button>
+        <button data-lang="en">English</button>
+        <button data-lang="fil">Filipino</button>
+    </div>
+
     <!-- Navigation fixe -->
-    <header class="site-header">
+    <header id="site-header">
         <nav>
-            <ul class="nav-links">
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#diplomes">Diplômes</a></li>
-                <li><a href="#experience">Expériences</a></li>
-                <li><a href="#realisations">Réalisations</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul id="nav-links">
+                <li><a href="#accueil" data-key="nav_home">Accueil</a></li>
+                <li><a href="#diplomes" data-key="nav_diplomas">Diplômes</a></li>
+                <li><a href="#experience" data-key="nav_experience">Expériences</a></li>
+                <li><a href="#realisations" data-key="nav_projects">Réalisations</a></li>
+                <li><a href="#contact" data-key="nav_contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Section Accueil -->
-    <section id="accueil" class="hero">
-        <div class="hero-content">
-            <h1>Commandant UNITE</h1>
-            <p>Commandant d'escadron</p>
-            <a href="docs/CV_Leo-Jean-UNITE_BUT2-VCOD-FI.pdf" class="btn" download>Télécharger mon CV</a>
+    <section id="accueil">
+        <div id="hero-content">
+            <h1 data-key="hero_title">Commandant UNITE</h1>
+            <p data-key="hero_subtitle">Commandant d'escadron</p>
+            <a href="docs/CV_Leo-Jean-UNITE_BUT2-VCOD-FI.pdf" id="btn-download" data-key="hero_btn" download>Télécharger mon CV</a>
         </div>
     </section>
 
     <!-- Section Diplômes -->
-    <section id="diplomes" class="section">
-        <h2>Mes Diplômes</h2>
-        <p>Voici un aperçu de mes qualifications académiques :</p>
-        <div class="diplomes-container">
+    <section id="diplomes">
+        <h2 data-key="diplomas_title">Mes Diplômes</h2>
+        <p data-key="diplomas_intro">Voici un aperçu de mes qualifications académiques :</p>
+        <div id="diplomes-container">
             <div class="diplome">
-                <h3>Baccalauréat Technologique STI2D</h3>
-                <p>Lycée Eugène Ionesco, 2018 - 2021</p>
-                <p>Spécialisation Système d'Information Numérique, mention Assez Bien.</p>
+                <h3 data-key="diploma_sti2d_title">Baccalauréat Technologique STI2D</h3>
+                <p data-key="diploma_sti2d_school">Lycée Eugène Ionesco, 2018 - 2021</p>
+                <p data-key="diploma_sti2d_desc">Spécialisation Système d'Information Numérique, mention Assez Bien.</p>
                 <img src="img/sti2d.jpg" alt="Diplôme BAC">
             </div>
             <div class="diplome">
-                <h3>Brevet d'Initiation Aéronautique</h3>
-                <p>Lycée Eugène Ionesco, 2021</p>
-                <p>Formation au milieu aéronautique.</p>
+                <h3 data-key="diploma_bia_title">Brevet d'Initiation Aéronautique</h3>
+                <p data-key="diploma_bia_school">Lycée Eugène Ionesco, 2021</p>
+                <p data-key="diploma_bia_desc">Formation au milieu aéronautique.</p>
                 <img src="img/acv.png" alt="Diplôme BIA">
             </div>
             <div class="diplome">
-                <h3>BUT Science des données</h3>
-                <p>Université Paris IUT, 2022 - Présent</p>
-                <p>Formation orientée sur les statistiques avancées, l’apprentissage automatique et la gestion de bases de données.</p>
+                <h3 data-key="diploma_but_title">BUT Science des données</h3>
+                <p data-key="diploma_but_school">Université Paris IUT, 2022 - Présent</p>
+                <p data-key="diploma_but_desc">Formation orientée sur les statistiques avancées, l’apprentissage automatique et la gestion de bases de données.</p>
                 <img src="img/UniversiteParis_IUTParis-RdS.png" alt="Formation académique">
             </div>
         </div>
     </section>
 
-    <!-- Section Expériences -->
-    <section id="experience" class="section">
-        <h2>Mes Expériences</h2>
-        <p>Les étapes clés de ma carrière :</p>
-        <div class="experience-list">
-            <div class="experience-item">
-                <img src="img/base107.jpg" alt="Initiation à l'aviation">
-                <h3>Initiation à l'aviation</h3>
-                <p>Base aérienne 107 Villacoublay, 2017</p>
-                <p>Les premiers pas dans le monde aéronautique avec la Base aérienne 107 Villacoublay.</p>
-            </div>
-            <div class="experience-item">
-                <img src="img/initchop.jpg" alt="Initation en hélicoptère">
-                <h3>Vol d'initation en hélicoptère</h3>
-                <p>Boracay, 2022</p>
-                <p>Prise de commande d'un hélicoptère lors d'un court vol.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Réalisations -->
-    <section id="realisations" class="section">
-        <h2>Mes Réalisations</h2>
-        <p>Mes projets personnels et professionnels :</p>
-        <div class="project-gallery">
-            <div class="project-item">
-                <img src="img/FrTFCAirParade-overlay.png" alt="FrTFC">
-                <h3>Formation d'une équipe eSport</h3>
-                <p>2021 - Présent</p>
-                <p>Formation d'une petite équipe eSport entre amis sur le jeu War Thunder</p>
-            </div>
-        </div>
-    </section>
-
     <!-- Section Contact -->
-    <section id="contact" class="section">
-        <h2>Contactez-moi</h2>
+    <section id="contact">
+        <h2 data-key="contact_title">Contactez-moi</h2>
         <form>
-            <label for="nom">Nom :</label>
+            <label for="nom" data-key="contact_name_label">Nom :</label>
             <input type="text" id="nom" name="nom" required>
-            <label for="email">Email :</label>
+            <label for="email" data-key="contact_email_label">Email :</label>
             <input type="email" id="email" name="email" required>
-            <label for="message">Message :</label>
+            <label for="message" data-key="contact_message_label">Message :</label>
             <textarea id="message" name="message" required></textarea>
-            <button type="submit">Envoyer</button>
+            <button type="submit" data-key="contact_btn">Envoyer</button>
         </form>
     </section>
 
     <!-- Footer -->
-    <footer class="site-footer">
-        <p>&copy; 2024 Leo Jean. Tous droits réservés.</p>
+    <footer id="site-footer">
+        <p data-key="footer_text">&copy; 2024 Leo Jean. Tous droits réservés.</p>
     </footer>
+
+    <script src="js/lang.js"></script>
 </body>
 </html>
