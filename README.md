@@ -19,9 +19,9 @@ Ce portfolio est organisé en plusieurs sections pour offrir une navigation intu
 ## 🌍 Versions linguistiques disponibles
 
 Le site est accessible en trois langues :
-- [Français (par défaut)](index.html)
-- [English](index-en.html)
-- [Filipino](index-fil.html)
+- [Français (par défaut)](https://thecolonel92.github.io/portfolio/)
+- [English](https://thecolonel92.github.io/portfolio/index-en.html)
+- [Filipino](https://thecolonel92.github.io/portfolio/index-fil.html)
 
 ---
 
