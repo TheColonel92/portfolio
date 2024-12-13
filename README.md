@@ -49,3 +49,21 @@ portfolio-leo-jean/
 ```
 
 ---
+
+## 📧 Contactez-moi
+
+- **Par e-mail** : [leo-jean.unite@etu.u-paris.fr](mailto:leo-jean.unite@etu.u-paris.fr)
+- **Sur LinkedIn** : [Leo Jean sur LinkedIn](https://www.linkedin.com/in/lj-unite/)
+- **Réseaux sociaux** :
+  - [Instagram](#)
+  - [Facebook](#)
+
+---
+
+## 🖋️ Licence
+
+Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, de le modifier, et de le partager à condition de créditer l'auteur.
+
+---
+
+Merci d'avoir visité mon portfolio ! 😊
