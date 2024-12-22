@@ -159,7 +159,7 @@ footer .footer-logo {
 @media (max-width: 768px) {
     /* Augmenter la taille de la barre de navigation */
     .navbar {
-        font-size: 1.2rem; /* Augmenter la taille du texte */
+        font-size: 2rem; /* Augmenter la taille du texte */
         padding: 15px 10px; /* Ajouter un peu de padding */
     }
 
