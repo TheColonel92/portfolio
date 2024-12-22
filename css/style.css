@@ -154,37 +154,3 @@ footer .footer-logo {
     display: block;
     margin: 0 auto;
 }
-
-/* Styles spécifiques pour les petits écrans */
-@media (max-width: 768px) {
-    /* Augmenter la taille de la barre de navigation */
-    .navbar {
-        font-size: 2rem; /* Augmenter la taille du texte */
-        padding: 15px 10px; /* Ajouter un peu de padding */
-    }
-
-    .navbar-brand img {
-        width: 50px; /* Augmenter la taille du logo */
-        height: 50px;
-    }
-
-    .navbar-nav .nav-link {
-        padding: 10px 15px; /* Espacement plus large entre les liens */
-    }
-
-    .navbar-toggler-icon {
-        width: 1.5rem; /* Ajuster la taille de l'icône de menu */
-        height: 1.5rem;
-    }
-
-    /* Agrandir le footer */
-    footer {
-        font-size: 1.2rem; /* Taille de texte plus grande */
-        padding: 30px; /* Plus de padding pour une meilleure lisibilité */
-        text-align: center;
-    }
-
-    footer p {
-        margin-bottom: 0;
-    }
-}
