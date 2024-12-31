@@ -49,6 +49,26 @@ header {
     position: relative;
 }
 
+/* Page anglaise */
+body.en header {
+    background: url('../img/paris-banner.png') no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Page filipino */
+body.fil header {
+    background: url('../img/NAIA_T3_CEB.jpg') no-repeat center center / cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 header .overlay{
   z-index: 1; /* Pour garantir que le contenu reste visible */
   background: rgba(0, 0, 0, 0.5); /* Ajoute une transparence pour rendre le texte lisible */
