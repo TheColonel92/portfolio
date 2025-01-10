@@ -52,11 +52,11 @@
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
                                 Linkedin
                             </a></li>
-                            <li><a class="dropdown-item" href="">
+                            <li><a class="dropdown-item" href="https://www.instagram.com">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
                                 Instagram
                             </a></li>
-                            <li><a class="dropdown-item" href="">
+                            <li><a class="dropdown-item" href="https://www.facebook.com">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/767px-Logo_de_Facebook.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
                                 Facebook
                             </a></li>
@@ -102,9 +102,24 @@
     <section id="presentation" class="py-5">
         <div class="container">
             <div class="text-center mb-5">
-                <img src="img/IMG20240803183214.jpg" alt="Député" class="text-center rounded-circle member-img mb-2">
-                <h2 class="text-center">About Me</h2>
-                <p class="text-center">I am Léo Jean Unite, a second year BUT Data Science student at IUT Paris - Rives de Seine. Passionate about data analysis, I combine my technical skills with an ability to solve complex problems using tools like Python, R, SQL, Power BI and Excel. My professional career has allowed me to develop management skills, particularly in the airport sector and in accounting. These experiences taught me how to work in a team, manage projects and collaborate with clients. At the same time, I enriched my knowledge thanks to several university projects, where I explored data processing, analysis and transformation. I am also passionate about travel, video games and music, especially KPOP. Outside of my studies, I am pursuing my dream of becoming a pilot by following training to obtain my aeronautical license.</p>
+                <!-- Image centrée -->
+                <img src="img/IMG20240803183214.jpg" alt="Moi" class="rounded-circle member-img mb-2">
+                <!-- Titre centré -->
+                <h2>About Me</h2>
+            </div>
+            <!-- Texte aligné à gauche -->
+            <div class="text-left">
+                <p>
+                    I am Léo Jean Unite, a second year BUT Data Science student at IUT Paris - Rives de Seine. Passionate about data analysis, I combine my technical skills with an ability to solve complex problems using tools like Python, R, SQL, Power BI and Excel. My professional career has allowed me to develop management skills, particularly in the airport sector and in accounting. These experiences taught me how to work in a team, manage projects and collaborate with clients.
+                </p>
+                <br>
+                <p>
+                    At the same time, I enriched my knowledge thanks to several university projects, where I explored data processing, analysis and transformation.
+                </p>
+                <br>
+                <p>
+                    I am also passionate about travel, video games and music, especially KPOP. Outside of my studies, I am pursuing my dream of becoming a pilot by following training to obtain my aeronautical license.
+                </p>
             </div>
         </div>
     </section>
@@ -132,6 +147,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Aeronautical Initiation Certificate (BIA)</h5>
                             <p class="card-text">Lycée Eugène Ionesco, 2021</p>
+                            <p class="card-text"> </p>
                             <p class="card-body">This certificate introduced me to the fascinating world of aviation, covering theoretical foundations and an in-depth understanding of flight mechanisms and aerodynamics.</p>
                         </div>
                     </div>
@@ -142,9 +158,62 @@
                         <div class="card-body">
                             <h5 class="card-title">University Bachelors of Technology Data Science</h5>
                             <p class="card-text">Université Paris Cité, 2022 - Present</p>
+                            <p class="card-text"> </p>
                             <p class="card-body">Currently pursuing at Université Paris IUT, this program provides expertise in machine learning, statistical analysis, and database management, preparing me for innovative projects leveraging the power of data in various fields.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-me" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-6 mb-4">
+                    <form action="submit_form.php" method="POST">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+
+                <!-- Social Media Buttons -->
+                <div class="col-lg-6 text-center">
+                    <p>Or reach me on my social media:</p>
+                    <a href="https://discord.gg/CBsSTKzjrY" class="btn btn-outline-dark btn-lg mb-2" target="_blank">
+                        <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1-1.png" alt="Discord" width="25" height="25" class="d-inline-block align-text-top">
+                        Discord
+                    </a><br>
+                    <a href="https://www.facebook.com" class="btn btn-outline-primary btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/767px-Logo_de_Facebook.png" alt="Facebook" width="25" height="25" class="d-inline-block align-text-top">
+                        Facebook
+                    </a><br>
+                    <a href="https://www.instagram.com" class="btn btn-outline-danger btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram" width="25" height="25" class="d-inline-block align-text-top">
+                        Instagram
+                    </a><br>
+                    <a href="https://www.linkedin.com/in/lj-unite/" class="btn btn-outline-primary btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="25" height="25" class="d-inline-block align-text-top">
+                        LinkedIn
+                    </a>
                 </div>
             </div>
         </div>

@@ -48,11 +48,11 @@
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
                                 Linkedin
                             </a></li>
-                            <li><a class="dropdown-item" href="">
+                            <li><a class="dropdown-item" href="https://www.instagram.com">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
                                 Instagram
                             </a></li>
-                            <li><a class="dropdown-item" href="">
+                            <li><a class="dropdown-item" href="https://www.facebook.com">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/767px-Logo_de_Facebook.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
                                 Facebook
                             </a></li>
@@ -97,9 +97,24 @@
     <section id="presentation" class="py-5">
         <div class="container">
             <div class="text-center mb-5">
-                <img src="img/IMG20240803183214.jpg" alt="Député" class="text-center rounded-circle member-img mb-2">
-                <h2 class="text-center">À propos de moi</h2>
-                <p class="text-center">Je suis Léo Jean Unite, un étudiant en deuxième année de BUT Science des Données à l'IUT Paris - Rives de Seine. Passionné par l'analyse de données, je combine mes compétences techniques avec une capacité à résoudre des problématiques complexes grâce à des outils comme Python, R, SQL, Power BI et Excel. Mon parcours professionnel m'a permis de développer des compétences en gestion, notamment dans le secteur aéroportuaire et en comptabilité. Ces expériences m'ont appris à travailler en équipe, à gérer des projets et à collaborer avec des clients. En parallèle, j'ai enrichi mes connaissances grâce à plusieurs projets universitaires, où j'ai exploré le traitement des données, leur analyse et leur transformation. Je suis également un passionné de voyage, de jeux vidéo et de musique, notamment le KPOP. En dehors de mes études, je poursuis mon rêve de devenir pilote en suivant une formation pour obtenir mon brevet aéronautique.</p>
+                <!-- Image centrée -->
+                <img src="img/IMG20240803183214.jpg" alt="Moi" class="rounded-circle member-img mb-2">
+                <!-- Titre centré -->
+                <h2>À propos de moi</h2>
+            </div>
+            <!-- Texte aligné à gauche -->
+            <div class="text-left">
+                <p>
+                    Je suis Léo Jean Unite, un étudiant en deuxième année de BUT Science des Données à l'IUT Paris - Rives de Seine. Passionné par l'analyse de données, je combine mes compétences techniques avec une capacité à résoudre des problématiques complexes grâce à des outils comme Python, R, SQL, Power BI et Excel. Mon parcours universitaire m'a permis de développer des compétences en gestion, notamment dans le secteur aéroportuaire et en comptabilité. Ces expériences m'ont appris à travailler en équipe, à gérer des projets et à collaborer avec des clients.
+                </p>
+                <br>
+                <p>
+                    En parallèle, j'ai enrichi mes connaissances grâce à plusieurs projets universitaires, où j'ai exploré le traitement des données, leur analyse et leur transformation.
+                </p>
+                <br>
+                <p>
+                    Je suis également un passionné de voyage, de jeux vidéo et de musique, notamment le KPOP. En dehors de mes études, je poursuis mon rêve de devenir pilote en suivant une formation pour obtenir mon brevet aéronautique.
+                </p>
             </div>
         </div>
     </section>
@@ -127,6 +142,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Brevet d'Initiation Aéronautique (BIA)</h5>
                             <p class="card-text">Lycée Eugène Ionesco, 2021</p>
+                            <p class="card-text"> </p>
                             <p class="card-body">Formation au milieu aéronautique. Ce diplôme m'a permis de découvrir l'univers fascinant de l'aviation, depuis les bases théoriques jusqu'à une compréhension plus approfondie des mécanismes de vol et de l'aérodynamique.</p>
                         </div>
                     </div>
@@ -137,9 +153,62 @@
                         <div class="card-body">
                             <h5 class="card-title">BUT Science des données</h5>
                             <p class="card-text">Université Paris Cité, 2022 - Présent</p>
+                            <p class="card-text"> </p>
                             <p class="card-body">En cours à l'Université Paris IUT, cette formation m'apporte une expertise en apprentissage automatique, analyse statistique et gestion de bases de données. Elle me prépare à des projets innovants en exploitant le potentiel des données dans divers domaines.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact-me" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contactez-moi</h2>
+            <div class="row">
+                <!-- Formulaire de contact -->
+                <div class="col-lg-6 mb-4">
+                    <form action="submit_form.php" method="POST">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">Prénom</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+
+                <!-- Boutons de réseaux sociaux -->
+                <div class="col-lg-6 text-center">
+                    <p>Ou contactez-moi sur mes réseaux sociaux :</p>
+                    <a href="https://discord.gg/CBsSTKzjrY" class="btn btn-outline-dark btn-lg mb-2" target="_blank">
+                        <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1-1.png" alt="Discord" width="25" height="25" class="d-inline-block align-text-top">
+                        Discord
+                    </a><br>
+                    <a href="https://www.facebook.com" class="btn btn-outline-primary btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/767px-Logo_de_Facebook.png" alt="Facebook" width="25" height="25" class="d-inline-block align-text-top">
+                        Facebook
+                    </a><br>
+                    <a href="https://www.instagram.com" class="btn btn-outline-danger btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram" width="25" height="25" class="d-inline-block align-text-top">
+                        Instagram
+                    </a><br>
+                    <a href="https://www.linkedin.com/in/lj-unite/" class="btn btn-outline-primary btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="25" height="25" class="d-inline-block align-text-top">
+                        LinkedIn
+                    </a>
                 </div>
             </div>
         </div>

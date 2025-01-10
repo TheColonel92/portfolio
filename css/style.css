@@ -89,7 +89,6 @@ header .overlay{
     transition: transform 0.3s ease;
 }
 
-
 /* Academic Qualifications Section */
 #academic-qualifications {
     background: #f9f9f9;
@@ -109,28 +108,51 @@ header .overlay{
     color: #555;
 }
 
-.card {
+/* Pour que les cartes aient toutes la même hauteur */
+#academic-qualifications .card {
     background: white;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
-.card:hover {
+/* Permet au contenu de chaque carte de prendre tout l'espace disponible */
+#academic-qualifications .card-body {
+    flex-grow: 1;
+    text-align: left; /* Aligner tout le texte à gauche sauf card-title et card-text */
+}
+
+/* Effet au survol */
+#academic-qualifications .card:hover {
     transform: translateY(-10px);
 }
 
-.card-title {
+/* Styles pour card-title et card-text, ils ne seront pas affectés */
+#academic-qualifications .card-title {
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: #333;
+    text-align: center; /* Centrer le titre */
 }
 
-.card-text {
+#academic-qualifications .card-text {
     font-size: 1rem;
     color: #666;
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 15px; /* Espacement sous le texte */
 }
+
+/* Styles pour l'image dans les cartes, si nécessaire */
+#academic-qualifications .card-img-top {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 
 /* Professional Experiences Section */
 #experiences {
@@ -143,6 +165,29 @@ header .overlay{
     color: #004080;
     margin-bottom: 20px;
 }
+
+/* Alignement des cartes avec flexbox pour une hauteur uniforme */
+#experiences .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#experiences .col-md-6 {
+    display: flex;
+    justify-content: center;
+}
+
+#experiences .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#experiences .card-body {
+    flex-grow: 1;
+}
+
 
 /* Achievements Section */
 #achievements {
@@ -161,6 +206,17 @@ header .overlay{
     font-size: 1.2rem;
     margin-bottom: 40px;
     color: #555;
+}
+
+/* Assurer une hauteur égale pour toutes les cartes */
+#achievements .card {
+    display: block;
+    min-height: 300px; /* Vous pouvez ajuster cette hauteur selon vos besoins */
+}
+
+/* Assurer une hauteur uniforme même quand le contenu varie */
+#achievements .card-body {
+    flex-grow: 1;
 }
 
 /* Footer */

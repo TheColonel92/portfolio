@@ -52,11 +52,11 @@
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
                                 Linkedin
                             </a></li>
-                            <li><a class="dropdown-item" href="">
+                            <li><a class="dropdown-item" href="https://www.instagram.com">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
                                 Instagram
                             </a></li>
-                            <li><a class="dropdown-item" href="">
+                            <li><a class="dropdown-item" href="https://www.facebook.com">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/767px-Logo_de_Facebook.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
                                 Facebook
                             </a></li>
@@ -103,9 +103,24 @@
     <section id="presentation" class="py-5">
         <div class="container">
             <div class="text-center mb-5">
-                <img src="img/IMG20240803183214.jpg" alt="Député" class="text-center rounded-circle member-img mb-2">
-                <h2 class="text-center">Tungkol sa akin</h2>
-                <p class="text-center">Ako si Léo Jean Unite, pangalawang taon PERO mag-aaral ng Data Science sa IUT Paris - Rives de Seine. Masigasig sa pagsusuri ng data, pinagsama ko ang aking mga teknikal na kasanayan sa kakayahang malutas ang mga kumplikadong problema gamit ang mga tool tulad ng Python, R, SQL, Power BI at Excel. Ang aking propesyonal na karera ay nagpahintulot sa akin na bumuo ng mga kasanayan sa pamamahala, lalo na sa sektor ng paliparan at sa accounting. Ang mga karanasang ito ay nagturo sa akin kung paano magtrabaho sa isang team, pamahalaan ang mga proyekto at makipagtulungan sa mga kliyente. Kasabay nito, pinayaman ko ang aking kaalaman salamat sa ilang mga proyekto sa unibersidad, kung saan ako nag-explore ng data processing, analysis at transformation. Mahilig din ako sa paglalakbay, video game at musika, lalo na ang KPOP. Sa labas ng aking pag-aaral, hinahabol ko ang aking pangarap na maging isang piloto sa pamamagitan ng pagsunod sa pagsasanay upang makuha ang aking lisensya sa aeronautical.</p>
+                <!-- Image centrée -->
+                <img src="img/IMG20240803183214.jpg" alt="Moi" class="rounded-circle member-img mb-2">
+                <!-- Titre centré -->
+                <h2>About Me</h2>
+            </div>
+            <!-- Texte aligné à gauche -->
+            <div class="text-left">
+                <p>
+                    Ako si Léo Jean Unite, pangalawang taon PERO mag-aaral ng Data Science sa IUT Paris - Rives de Seine. Masigasig sa pagsusuri ng data, pinagsama ko ang aking mga teknikal na kasanayan sa kakayahang malutas ang mga kumplikadong problema gamit ang mga tool tulad ng Python, R, SQL, Power BI at Excel. Ang aking propesyonal na karera ay nagpahintulot sa akin na bumuo ng mga kasanayan sa pamamahala, lalo na sa sektor ng paliparan at sa accounting. Ang mga karanasang ito ay nagturo sa akin kung paano magtrabaho sa isang team, pamahalaan ang mga proyekto at makipagtulungan sa mga kliyente.
+                </p>
+                <br>
+                <p>
+                    Kasabay nito, pinayaman ko ang aking kaalaman salamat sa ilang mga proyekto sa unibersidad, kung saan ako nag-explore ng data processing, analysis at transformation. Mahilig din ako sa paglalakbay, video game at musika, lalo na ang KPOP.
+                </p>
+                <br>
+                <p>
+                    Sa labas ng aking pag-aaral, hinahabol ko ang aking pangarap na maging isang piloto sa pamamagitan ng pagsunod sa pagsasanay upang makuha ang aking lisensya sa aeronautical.
+                </p>
             </div>
         </div>
     </section>
@@ -133,6 +148,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Aeronautical Initiation Certificate (BIA)</h5>
                             <p class="card-text">Lycée Eugène Ionesco, 2021</p>
+                            <p class="card-text"> </p>
                             <p class="card-body">Ang sertipikasyong ito ang nagpakilala sa akin sa kamangha-manghang mundo ng aviation, mula sa mga teoretikal na pundasyon hanggang sa mas malalim na pag-unawa sa mekanismo ng paglipad at aerodynamics.</p>
                         </div>
                     </div>
@@ -143,9 +159,62 @@
                         <div class="card-body">
                             <h5 class="card-title">Mga Batsilyer ng Teknolohiya sa Unibersidad sa Agham ng Data</h5>
                             <p class="card-text">Université Paris Cité, 2022 - Kasalukuyan</p>
+                            <p class="card-text"> </p>
                             <p class="card-body">Kasalukuyang nag-aaral sa Université Paris IUT, ang programang ito ay nagbibigay ng kasanayan sa machine learning, statistical analysis, at database management, na naghahanda sa akin para sa mga makabagong proyekto gamit ang data sa iba't ibang larangan.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-me" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Makipag-ugnayan sa Akin</h2>
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-6 mb-4">
+                    <form action="submit_form.php" method="POST">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">Unang Pangalan</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Apelyido</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensahe</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Ipadala</button>
+                    </form>
+                </div>
+
+                <!-- Social Media Buttons -->
+                <div class="col-lg-6 text-center">
+                    <p>O kontakin ako sa aking mga social media:</p>
+                    <a href="https://discord.gg/CBsSTKzjrY" class="btn btn-outline-dark btn-lg mb-2" target="_blank">
+                        <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1-1.png" alt="Discord" width="25" height="25" class="d-inline-block align-text-top">
+                        Discord
+                    </a><br>
+                    <a href="https://www.facebook.com" class="btn btn-outline-primary btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/767px-Logo_de_Facebook.png" alt="Facebook" width="25" height="25" class="d-inline-block align-text-top">
+                        Facebook
+                    </a><br>
+                    <a href="https://www.instagram.com" class="btn btn-outline-danger btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram" width="25" height="25" class="d-inline-block align-text-top">
+                        Instagram
+                    </a><br>
+                    <a href="https://www.linkedin.com/in/lj-unite/" class="btn btn-outline-primary btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="25" height="25" class="d-inline-block align-text-top">
+                        LinkedIn
+                    </a>
                 </div>
             </div>
         </div>
