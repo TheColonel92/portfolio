@@ -208,16 +208,18 @@ header .overlay{
     color: #555;
 }
 
-/* Assurer une hauteur égale pour toutes les cartes */
 #achievements .card {
-    display: block;
+    margin: 0.5rem; /* Ajoute un espacement entre les cartes */
     min-height: 300px; /* Vous pouvez ajuster cette hauteur selon vos besoins */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
-/* Assurer une hauteur uniforme même quand le contenu varie */
 #achievements .card-body {
-    flex-grow: 1;
+    flex-grow: 1; /* Fait en sorte que cette section prenne tout l'espace restant */
 }
+
 
 /* Footer */
 footer {
