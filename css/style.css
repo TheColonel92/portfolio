@@ -41,7 +41,7 @@ section {
 
 /* Header-Accueil */
 header {
-    background: url('../img/paris-banner.png') no-repeat center center / cover;
+    background: url('../img/DataAF.png') no-repeat center center / cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ header {
 
 /* Page anglaise */
 body.en header {
-    background: url('../img/NAIA_T3_CEB (1).jpg') no-repeat center center / cover;
+    background: url('../img/DataPAL.png') no-repeat center center / cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@ body.en header {
 
 /* Page filipino */
 body.fil header {
-    background: url('https://www.panaynews.net/wp-content/uploads/2019/01/Kalibo-International-Airport-1030x618.jpg') no-repeat center center / cover;
+    background: url('../img/PSA\ 2020.jpg') no-repeat center center / cover;
     height: 100vh;
     display: flex;
     align-items: center;
