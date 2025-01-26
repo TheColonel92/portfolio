@@ -128,11 +128,34 @@
                             <p class="card-text">Université Paris Cité, 2022 - Présent</p>
                             <p class="card-text"> </p>
                             <p class="card-body">En cours à l'Université Paris IUT, cette formation m'apporte une expertise en apprentissage automatique, analyse statistique et gestion de bases de données. Elle me prépare à des projets innovants en exploitant le potentiel des données dans divers domaines.</p>
-                            <a href="https://up75-my.sharepoint.com/:b:/g/personal/leo-jean_unite_etu_u-paris_fr/EapVi8aB9vVFn8gl453-c0ABb4aUx75irg-W-NKRefwYZg?e=hA3kPR" class="btn btn-primary" download>Programme BUT SD</a>
+                            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                Programme BUT SD
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        Le <b>Bachelor Universitaire de Technologie (B.U.T.) Science des Données</b> est une formation en trois ans visant à former des professionnels capables de collecter, analyser et valoriser les données pour aider à la prise de décision en entreprise. Cette formation se décline en deux parcours spécialisés :<br>
+                        1. <b>Visualisation, Conception d'Outils Décisionnels (VCOD)</b> : Ce parcours met l'accent sur le développement de solutions décisionnelles, la gestion des données via des processus ETL (extraction, transformation, chargement) et la restitution des résultats sous forme de tableaux de bord et de visualisations adaptées. Il prépare aux métiers tels que data analyst, développeur décisionnel/BI et chef de projet décisionnel.<br>
+                        2. <b>Exploration et Modélisation Statistique (EMS)</b> : Ce parcours se concentre sur l'analyse approfondie des données, en utilisant des outils et méthodes statistiques avancés pour extraire des insights pertinents. Les diplômés peuvent exercer des fonctions telles que chargé d'études statistiques, data scientist ou analyste marketing.<br>
+                        <br>Le programme est structuré en plusieurs situations d'apprentissage et d'évaluation (SAÉ), couvrant des thématiques telles que la collecte et l'intégration de données, la datavisualisation, la modélisation statistique et la conformité réglementaire. Un accent particulier est mis sur la démarche portfolio, permettant aux étudiants de documenter et valoriser leurs compétences acquises au fil de la formation.<br>
+                        Enfin, la formation intègre des stages en entreprise et des projets tutorés, permettant aux étudiants d'appliquer leurs compétences dans des contextes réels et de se préparer efficacement à leur future insertion professionnelle.
+                    </div>
+                    <a href="https://up75-my.sharepoint.com/:b:/g/personal/leo-jean_unite_etu_u-paris_fr/EapVi8aB9vVFn8gl453-c0ABb4aUx75irg-W-NKRefwYZg?e=hA3kPR" class="btn btn-primary" download>
+                        Programme BUT SD en pdf
+                    </a>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -146,19 +169,19 @@
                     <form action="submit_form.php" method="POST">
                         <div class="mb-3">
                             <label for="firstName" class="form-label">Prénom</label>
-                            <input type="text" class="form-control" id="firstName" name="firstName" required>
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Entrez votre prénom">
                         </div>
                         <div class="mb-3">
                             <label for="lastName" class="form-label">Nom</label>
-                            <input type="text" class="form-control" id="lastName" name="lastName" required>
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Entrez votre nom" required>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Entrez votre email" required>
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Entrez votre message" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Envoyer</button>
                     </form>
@@ -171,11 +194,15 @@
                         <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1-1.png" alt="Discord" width="25" height="25" class="d-inline-block align-text-top">
                         Discord
                     </a><br>
-                    <a href="https://www.facebook.com" class="btn btn-outline-primary btn-lg mb-2" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=100011170991125" class="btn btn-outline-primary btn-lg mb-2" target="_blank">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/767px-Logo_de_Facebook.png" alt="Facebook" width="25" height="25" class="d-inline-block align-text-top">
                         Facebook
                     </a><br>
-                    <a href="https://www.instagram.com" class="btn btn-outline-danger btn-lg mb-2" target="_blank">
+                    <a href="https://github.com/TheColonel92" class="btn btn-outline-dark btn-lg mb-2" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Facebook" width="25" height="25" class="d-inline-block align-text-top">
+                        GitHub
+                    </a><br>
+                    <a href="https://www.instagram.com/leoune_92/" class="btn btn-outline-danger btn-lg mb-2" target="_blank">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="Instagram" width="25" height="25" class="d-inline-block align-text-top">
                         Instagram
                     </a><br>
