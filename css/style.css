@@ -39,6 +39,12 @@ section {
 
 
 
+
+
+
+
+
+
 /* Header-Accueil */
 header {
     background: url('../img/DataAF.png') no-repeat center center / cover;
@@ -75,6 +81,14 @@ header .overlay{
   padding: 20px;
   border-radius: 10px;
 }
+
+
+
+
+
+
+
+
 
 /* Presentation Section */
 #presentation {
@@ -154,6 +168,13 @@ header .overlay{
 }
 
 
+
+
+
+
+
+
+
 /* Professional Experiences Section */
 #experiences {
     padding: 80px 20px;
@@ -189,6 +210,14 @@ header .overlay{
 }
 
 
+
+
+
+
+
+
+
+
 /* Achievements Section */
 #achievements {
     background: #f9f9f9;
@@ -209,7 +238,7 @@ header .overlay{
 }
 
 #achievements .card {
-    margin: 0.5rem; /* Ajoute un espacement entre les cartes */
+    margin: 1.0rem; /* Ajoute un espacement entre les cartes */
     min-height: 300px; /* Vous pouvez ajuster cette hauteur selon vos besoins */
     display: flex;
     flex-direction: column;
@@ -219,6 +248,20 @@ header .overlay{
 #achievements .card-body {
     flex-grow: 1; /* Fait en sorte que cette section prenne tout l'espace restant */
 }
+
+#achievements .logo-agence {
+    width: 25px; /* Ajuste la taille selon tes besoins */
+    height: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 /* Footer */
